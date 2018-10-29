@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <script src="vendors/jquery.easings.min.js"></script>
+
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    
+    
+    <script>
+        $(document).ready(function() {
+	       $('#fullpage').fullpage();
+        });
+    </script>
+</head>
+<body>
+    <div class="fullpage">
+        <div class="section">
+            <div class="landing">
+                <div class="landing_warpper">
+                    
+                    <div class="nav">
+                        <a href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
+                        <div class="pages">
+                            <a href="#">How it works</a>
+                            <a href="#">App Features</a>
+                            <a href="#">About Us</a>
+                            <a href="#" class="btn_one">Sign Up</a>
+                        </div>
+                    </div>
+
+                    <div class="landing_content">
+                        
+                        <div class="content_left">
+                            <h1>Work Better Together. Schedule <br>Meetings In An Instant.</h1>
+                            <p>An easier way to colaborate with your team and friends. You <br>Set up the meeting and set the priorities</p>
+                            <p>Available for download on the Google Play Store and AppStore.</p>
+                            <a href="#" class="btn_two">Download App</a>
+                        </div>
+
+                        <div class="content_right">
+                            <img src="images/iphoneX_inHand.png" alt="img_in_hand" class="i_phone_hand">
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="features">
+                <div class="date">
+                    <img src="./images/cal_icon.png" alt="cal_icon" >
+                    <h1>Easily Set The Date</h1>
+                    <p>Access to your personal calendar lets you check <br>for open schedule dates.</p>
+                </div>
+                <div class="time">
+                    <img src="./images/clock_icon.png" alt="clock">
+                    <h1>Running Late?</h1>
+                    <p>Set the meeting time.if you ever need to <br>delay, all members of the meeting will be <br>notified immediately.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="groups">
+                <div class="group_wrapper">
+                    <div class="group_content">
+                        
+                        <div class="content_left">
+                            <img src="./images/search_icon.png" alt="search">
+                            <h1>Search Groups and Friends</h1>
+                            <p>An easier way to collaborate with your friends. You set <br>up meeting and set priority, decide who to invite and <br>get started.</p>
+                            <p>Available for download on The Google Play Store and <br>AppStore.</p>
+                        </div>
+                        
+                        <div class="content_right">
+                            <img src="./images/people_groups.png" alt="people_group">
+                        </div>
+                    </div>
+                    
+                    <div class="footer">
+                        <p>© 2018 Meetings</p>
+                        <div class="pages_right">
+                            <a href="#">Terms</a>
+                            <a href="#">Privacy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--I have linked everything for fullpage.js above, just start coding here :D -->
+    
+    
+</body>    
+</html>
